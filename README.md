@@ -45,6 +45,12 @@ Collection of PyTorch implementations of Generative Adversarial Network varietie
     $ git clone https://github.com/eriklindernoren/PyTorch-GAN
     $ cd PyTorch-GAN/
     $ sudo pip3 install -r requirements.txt
+    Or install manually:
+    1. Install pytorch >= v0.4.0 following [official instruction](https://pytorch.org/).
+    2. Install matplotlib: $ conda install matplotlib
+    3. Install scipy: $ conda install scipy
+    4. Install urllib3: $ conda install urllib3
+    5. Install scikit-image: $ conda install scikit-image
 
 ## Implementations   
 ### Auxiliary Classifier GAN
